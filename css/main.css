@@ -1,0 +1,148 @@
+:root {
+    --bg-white: #ffffff;
+    --bg-background: #d8d3d3;
+    --bg-black: #121212;
+    --bg-purple-hover: rgb(101, 7, 101);
+
+    --text-white: #ffffff;
+    --text-purple: rgb(147, 23, 147);
+
+    --font-primary: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--bg-background);
+    font: 400 1rem/1.8 var(--font-primary);
+}
+
+ul {
+    list-style: none;
+}
+
+a, img {
+    display: inline-block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    max-width: 78.125rem;
+    padding-inline: 1rem;
+    margin-inline: auto;
+}
+
+.card {
+    background-color: var(--bg-white);
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-block: 1.25rem;
+    background: var(--bg-black);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--text-white);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.logo span {
+    color: var(--text-purple);
+}
+
+.navbar-list {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-link {
+    color: var(--text-white);
+    font-weight: 700;
+}
+
+main {
+    height: 85vh;
+}
+
+.hero {
+    margin-top: 150px;
+}
+
+.card img {
+    height: 18.75rem;
+    width: 18.75rem;
+    border-radius: 8px;
+}
+
+.card .infos p {
+    margin-block: 1rem;
+}
+
+.btn-news {
+    color: var(--bg-white);
+    font-size: 1rem;
+    font-family: var(--font-primary);
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: var(--text-purple);
+    transition: background-color 500ms ease;
+}
+
+.btn-news:hover {
+    background: var(--bg-purple-hover);
+    box-shadow: 1px 1px 5px rgb(101, 7, 101);
+}
+
+.footer {
+    background: var(--bg-black);
+    opacity: 80%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .container {
+    padding-block: 1.25rem;
+    background: var();
+    text-align: center;
+}
+
+.footer-infos {
+    color: var(--bg-white);
+}
