@@ -2,10 +2,10 @@
     --bg-white: #ffffff;
     --bg-background: #d8d3d3;
     --bg-black: #121212;
-    --bg-purple-hover: rgb(101, 7, 101);
+    --bg-purple-hover: #650765;
 
     --text-white: #ffffff;
-    --text-purple: rgb(147, 23, 147);
+    --text-purple: #931793;
 
     --font-primary: "Roboto", sans-serif;
 }
@@ -140,7 +140,6 @@ main {
 
 .footer .container {
     padding-block: 1.25rem;
-    background: var();
     text-align: center;
 }
 
